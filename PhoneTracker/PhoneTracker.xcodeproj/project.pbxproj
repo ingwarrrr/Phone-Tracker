@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD51971E2F5F10DA00E8B187 /* PhoneNumberKit in Frameworks */ = {isa = PBXBuildFile; productRef = FD51971D2F5F10DA00E8B187 /* PhoneNumberKit */; };
+		FD5197212F5F110A00E8B187 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FD5197202F5F110A00E8B187 /* Lottie */; };
+		FD5197242F5F112100E8B187 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = FD5197232F5F112100E8B187 /* SocketIO */; };
+		FD5197272F5F130B00E8B187 /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = FD5197262F5F130B00E8B187 /* Factory */; };
+		FD5197292F5F130B00E8B187 /* FactoryKit in Frameworks */ = {isa = PBXBuildFile; productRef = FD5197282F5F130B00E8B187 /* FactoryKit */; };
+		FD7648762F5F103D00CF2D48 /* Adapty in Frameworks */ = {isa = PBXBuildFile; productRef = FD7648752F5F103D00CF2D48 /* Adapty */; };
+		FD7648792F5F105200CF2D48 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = FD7648782F5F105200CF2D48 /* AppsFlyerLib */; };
+		FD76487C2F5F10A600CF2D48 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FD76487B2F5F10A600CF2D48 /* FirebaseAuth */; };
+		FD76487E2F5F10A600CF2D48 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = FD76487D2F5F10A600CF2D48 /* FirebaseCore */; };
+		FD7648802F5F10A600CF2D48 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = FD76487F2F5F10A600CF2D48 /* FirebaseMessaging */; };
+		FD7648822F5F10A600CF2D48 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = FD7648812F5F10A600CF2D48 /* FirebaseRemoteConfig */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD7648642F5F0E2D00CF2D48 /* PhoneTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FD7648732F5F0EEF00CF2D48 /* Exceptions for "PhoneTracker" folder in "PhoneTracker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FD7648632F5F0E2D00CF2D48 /* PhoneTracker */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FD7648662F5F0E2D00CF2D48 /* PhoneTracker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FD7648732F5F0EEF00CF2D48 /* Exceptions for "PhoneTracker" folder in "PhoneTracker" target */,
+			);
+			path = PhoneTracker;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD7648612F5F0E2D00CF2D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD51971E2F5F10DA00E8B187 /* PhoneNumberKit in Frameworks */,
+				FD5197272F5F130B00E8B187 /* Factory in Frameworks */,
+				FD7648762F5F103D00CF2D48 /* Adapty in Frameworks */,
+				FD76487C2F5F10A600CF2D48 /* FirebaseAuth in Frameworks */,
+				FD7648802F5F10A600CF2D48 /* FirebaseMessaging in Frameworks */,
+				FD7648822F5F10A600CF2D48 /* FirebaseRemoteConfig in Frameworks */,
+				FD76487E2F5F10A600CF2D48 /* FirebaseCore in Frameworks */,
+				FD7648792F5F105200CF2D48 /* AppsFlyerLib in Frameworks */,
+				FD5197292F5F130B00E8B187 /* FactoryKit in Frameworks */,
+				FD5197212F5F110A00E8B187 /* Lottie in Frameworks */,
+				FD5197242F5F112100E8B187 /* SocketIO in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD76485B2F5F0E2D00CF2D48 = {
+			isa = PBXGroup;
+			children = (
+				FD7648662F5F0E2D00CF2D48 /* PhoneTracker */,
+				FD7648652F5F0E2D00CF2D48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD7648652F5F0E2D00CF2D48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD7648642F5F0E2D00CF2D48 /* PhoneTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD7648632F5F0E2D00CF2D48 /* PhoneTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD76486F2F5F0E2E00CF2D48 /* Build configuration list for PBXNativeTarget "PhoneTracker" */;
+			buildPhases = (
+				FD7648602F5F0E2D00CF2D48 /* Sources */,
+				FD7648612F5F0E2D00CF2D48 /* Frameworks */,
+				FD7648622F5F0E2D00CF2D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FD7648662F5F0E2D00CF2D48 /* PhoneTracker */,
+			);
+			name = PhoneTracker;
+			packageProductDependencies = (
+				FD7648752F5F103D00CF2D48 /* Adapty */,
+				FD7648782F5F105200CF2D48 /* AppsFlyerLib */,
+				FD76487B2F5F10A600CF2D48 /* FirebaseAuth */,
+				FD76487D2F5F10A600CF2D48 /* FirebaseCore */,
+				FD76487F2F5F10A600CF2D48 /* FirebaseMessaging */,
+				FD7648812F5F10A600CF2D48 /* FirebaseRemoteConfig */,
+				FD51971D2F5F10DA00E8B187 /* PhoneNumberKit */,
+				FD5197202F5F110A00E8B187 /* Lottie */,
+				FD5197232F5F112100E8B187 /* SocketIO */,
+				FD5197262F5F130B00E8B187 /* Factory */,
+				FD5197282F5F130B00E8B187 /* FactoryKit */,
+			);
+			productName = PhoneTracker;
+			productReference = FD7648642F5F0E2D00CF2D48 /* PhoneTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD76485C2F5F0E2D00CF2D48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					FD7648632F5F0E2D00CF2D48 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = FD76485F2F5F0E2D00CF2D48 /* Build configuration list for PBXProject "PhoneTracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD76485B2F5F0E2D00CF2D48;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FD7648742F5F103D00CF2D48 /* XCRemoteSwiftPackageReference "AdaptySDK-iOS" */,
+				FD7648772F5F105200CF2D48 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+				FD76487A2F5F10A600CF2D48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				FD51971C2F5F10DA00E8B187 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */,
+				FD51971F2F5F110A00E8B187 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				FD5197222F5F112100E8B187 /* XCRemoteSwiftPackageReference "socket" */,
+				FD5197252F5F130B00E8B187 /* XCRemoteSwiftPackageReference "Factory" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FD7648652F5F0E2D00CF2D48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD7648632F5F0E2D00CF2D48 /* PhoneTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD7648622F5F0E2D00CF2D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD7648602F5F0E2D00CF2D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FD76486D2F5F0E2E00CF2D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 444BVR3W4R;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD76486E2F5F0E2E00CF2D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 444BVR3W4R;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD7648702F5F0E2E00CF2D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 444BVR3W4R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhoneTracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Location Tracker";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth access will help Location Tracker search for nearby devices and improve tracking accuracy.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow location access so we can show your position on the map and share your location with your group.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow location access so we can show your position on the map and share your location with your group.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ingwarrrr.PhoneTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FD7648712F5F0E2E00CF2D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 444BVR3W4R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhoneTracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Location Tracker";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth access will help Location Tracker search for nearby devices and improve tracking accuracy.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow location access so we can show your position on the map and share your location with your group.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow location access so we can show your position on the map and share your location with your group.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ingwarrrr.PhoneTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD76485F2F5F0E2D00CF2D48 /* Build configuration list for PBXProject "PhoneTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD76486D2F5F0E2E00CF2D48 /* Debug */,
+				FD76486E2F5F0E2E00CF2D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD76486F2F5F0E2E00CF2D48 /* Build configuration list for PBXNativeTarget "PhoneTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7648702F5F0E2E00CF2D48 /* Debug */,
+				FD7648712F5F0E2E00CF2D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FD51971C2F5F10DA00E8B187 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/PhoneNumberKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.7;
+			};
+		};
+		FD51971F2F5F110A00E8B187 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.6.0;
+			};
+		};
+		FD5197222F5F112100E8B187 /* XCRemoteSwiftPackageReference "socket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		FD5197252F5F130B00E8B187 /* XCRemoteSwiftPackageReference "Factory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Factory";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.3;
+			};
+		};
+		FD7648742F5F103D00CF2D48 /* XCRemoteSwiftPackageReference "AdaptySDK-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adaptyteam/AdaptySDK-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.15.5;
+			};
+		};
+		FD7648772F5F105200CF2D48 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.8;
+			};
+		};
+		FD76487A2F5F10A600CF2D48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FD51971D2F5F10DA00E8B187 /* PhoneNumberKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD51971C2F5F10DA00E8B187 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */;
+			productName = PhoneNumberKit;
+		};
+		FD5197202F5F110A00E8B187 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD51971F2F5F110A00E8B187 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+		FD5197232F5F112100E8B187 /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD5197222F5F112100E8B187 /* XCRemoteSwiftPackageReference "socket" */;
+			productName = SocketIO;
+		};
+		FD5197262F5F130B00E8B187 /* Factory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD5197252F5F130B00E8B187 /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = Factory;
+		};
+		FD5197282F5F130B00E8B187 /* FactoryKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD5197252F5F130B00E8B187 /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = FactoryKit;
+		};
+		FD7648752F5F103D00CF2D48 /* Adapty */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD7648742F5F103D00CF2D48 /* XCRemoteSwiftPackageReference "AdaptySDK-iOS" */;
+			productName = Adapty;
+		};
+		FD7648782F5F105200CF2D48 /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD7648772F5F105200CF2D48 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+		FD76487B2F5F10A600CF2D48 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD76487A2F5F10A600CF2D48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FD76487D2F5F10A600CF2D48 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD76487A2F5F10A600CF2D48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		FD76487F2F5F10A600CF2D48 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD76487A2F5F10A600CF2D48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		FD7648812F5F10A600CF2D48 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD76487A2F5F10A600CF2D48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FD76485C2F5F0E2D00CF2D48 /* Project object */;
+}
