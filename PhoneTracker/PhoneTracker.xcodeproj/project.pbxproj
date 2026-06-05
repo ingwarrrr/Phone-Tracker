@@ -322,7 +322,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PhoneTracker/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Location Tracker";
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth access will help Location Tracker search for nearby devices and improve tracking accuracy.";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow location access so we can show your position on the map and share your location with your group.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow location access so we can show your position on the map and share your location with your group.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -365,7 +364,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PhoneTracker/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Location Tracker";
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth access will help Location Tracker search for nearby devices and improve tracking accuracy.";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow location access so we can show your position on the map and share your location with your group.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow location access so we can show your position on the map and share your location with your group.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
