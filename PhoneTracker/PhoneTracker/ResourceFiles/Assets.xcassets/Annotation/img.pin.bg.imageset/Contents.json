@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "img.pin.bg.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
